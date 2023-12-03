@@ -1,0 +1,36 @@
+.customTable {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .customTable th,
+  .customTable td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .customTable th {
+    font-weight: bold;
+  }
+  
+  .customTable tr:last-child>td {
+    border-bottom: none;
+    background-color: rgb(198, 198, 198);
+  }
+  
+  .headings {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+
+  .sortingIcons {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    cursor: pointer;
+  }

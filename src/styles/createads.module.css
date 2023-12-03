@@ -1,0 +1,88 @@
+.mainContainer {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 30px;
+    align-items: center;
+}
+
+.container {
+    width: 55%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.adsContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    position: relative;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.checkbox {
+    margin-right: 5px;
+    width: 17px;
+    height: 17px;
+}
+
+.images {
+    width: 100%;
+    margin: auto;
+}
+
+.button {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.headings {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    background-color: rgb(226, 226, 226);
+    border-radius: 0px 0px 10px 10px;
+    padding: 15px 0px;
+    font-weight: bold;
+}
+
+.headings>p {
+    color: gray;
+    font-weight: 500;
+}
+
+.submitButton {
+    border: none;
+    color: white;
+    background-color: rgb(0, 170, 255);
+    padding: 10px 50px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 472px) {
+    .container {
+      flex-direction: column;
+    }
+    
+    .submitButton {
+        padding: 7px 20px;
+        font-size: 12px;
+    }
+  }
